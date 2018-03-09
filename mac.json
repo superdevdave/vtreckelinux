@@ -1,0 +1,2010 @@
+{
+  "version": "3.33.18",
+  "system": {
+    "manufacturer": "Apple Inc.",
+    "model": "iMac13,2",
+    "version": "1.0",
+    "serial": "C02KC39BDNCV",
+    "uuid": "93F73BC7-1096-523E-8CE2-370F1ACBA42D",
+    "sku": "Mac-FC02E91DDD3FA6A4"
+  },
+  "bios": {
+    "vendor": "Apple Inc.",
+    "version": "",
+    "releaseDate": "",
+    "revision": ""
+  },
+  "baseboard": {
+    "manufacturer": "Apple Inc.",
+    "model": "iMac13,2",
+    "version": "1.0",
+    "serial": "C02KC39BDNCV",
+    "assetTag": "Mac-FC02E91DDD3FA6A4"
+  },
+  "os": {
+    "platform": "Darwin",
+    "distro": "Mac OS X",
+    "release": "10.12.6",
+    "codename": "",
+    "kernel": "16.7.0",
+    "arch": "x64",
+    "hostname": "Qrents-MacBook-Pro.local",
+    "logofile": "apple"
+  },
+  "versions": {
+    "kernel": "16.7.0",
+    "openssl": "1.0.2n",
+    "node": "9.5.0",
+    "v8": "6.2.414.46-node.18",
+    "npm": "",
+    "yarn": "",
+    "pm2": "",
+    "gulp": "",
+    "grunt": "",
+    "git": "",
+    "tsc": ""
+  },
+  "cpu": {
+    "manufacturer": "Intel®",
+    "brand": "Core™ i5-3470S",
+    "vendor": "GenuineIntel",
+    "family": "6",
+    "model": "58",
+    "stepping": "9",
+    "revision": "",
+    "speed": "2.90",
+    "speedmin": "2.90",
+    "speedmax": "2.90",
+    "cores": 4,
+    "cache": {
+      "l1d": 32768,
+      "l1i": 32768,
+      "l2": 262144,
+      "l3": 6291456
+    },
+    "flags": "fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clfsh ds acpi mmx fxsr sse sse2 ss htt tm pbe sse3 pclmulqdq dtes64 mon dscpl vmx smx est tm2 ssse3 cx16 tpr pdcm sse4.1 sse4.2 x2apic popcnt aes pcid xsave osxsave tsctmr avx1.0 rdrand f16c"
+  },
+  "graphics": {
+    "controllers": [
+      {
+        "model": "NVIDIA GeForce GTX 660M",
+        "bus": "PCIe",
+        "vram": 512,
+        "vramDynamic": false,
+        "vendor": "NVIDIA"
+      }
+    ],
+    "displays": [
+      {
+        "model": "iMac",
+        "main": true,
+        "builtin": false,
+        "connection": "DisplayPort",
+        "sizex": -1,
+        "sizey": -1,
+        "resolutionx": 2560,
+        "resolutiony": 1440,
+        "pixeldepth": 32
+      }
+    ]
+  },
+  "net": [
+    {
+      "iface": "lo0",
+      "ip4": "127.0.0.1",
+      "ip6": "::1",
+      "mac": "",
+      "internal": true
+    },
+    {
+      "iface": "en0",
+      "ip4": "10.128.30.131",
+      "ip6": "fe80::1407:88cc:8614:298e",
+      "mac": "10:dd:b1:b8:b9:4b",
+      "internal": false
+    },
+    {
+      "iface": "utun0",
+      "ip4": "",
+      "ip6": "fe80::91ff:9aec:33ec:a658",
+      "mac": "",
+      "internal": false
+    }
+  ],
+  "memLayout": [
+    {
+      "size": 4294967296,
+      "bank": "BANK 0/DIMM0:",
+      "type": "DDR3",
+      "clockSpeed": 1600,
+      "formFactor": "",
+      "manufacturer": "Elpida",
+      "partNum": "0x45424A3431554638424455352D474E2D4620",
+      "serialNum": "0x8DC326BF",
+      "voltageConfigured": -1,
+      "voltageMin": -1,
+      "voltageMax": -1
+    },
+    {
+      "size": 4294967296,
+      "bank": "BANK 1/DIMM0:",
+      "type": "DDR3",
+      "clockSpeed": 1600,
+      "formFactor": "",
+      "manufacturer": "Elpida",
+      "partNum": "0x45424A3431554638424455352D474E2D4620",
+      "serialNum": "0x96C326C4",
+      "voltageConfigured": -1,
+      "voltageMin": -1,
+      "voltageMax": -1
+    },
+    {
+      "size": 0,
+      "bank": "BANK 0/DIMM1:",
+      "type": "Empty",
+      "clockSpeed": 0,
+      "formFactor": "",
+      "manufacturer": "",
+      "partNum": "",
+      "serialNum": "",
+      "voltageConfigured": -1,
+      "voltageMin": -1,
+      "voltageMax": -1
+    },
+    {
+      "size": 0,
+      "bank": "BANK 1/DIMM1:",
+      "type": "Empty",
+      "clockSpeed": 0,
+      "formFactor": "",
+      "manufacturer": "",
+      "partNum": "",
+      "serialNum": "",
+      "voltageConfigured": -1,
+      "voltageMin": -1,
+      "voltageMax": -1
+    }
+  ],
+  "diskLayout": [
+    {
+      "type": "HD",
+      "name": "APPLE HDD WDC WD10EALX-408EA0",
+      "vendor": "",
+      "size": 1000204886016,
+      "bytesPerSector": -1,
+      "totalCylinders": -1,
+      "totalHeads": -1,
+      "totalSectors": -1,
+      "totalTracks": -1,
+      "tracksPerCylinder": -1,
+      "sectorsPerTrack": -1,
+      "firmwareRevision": "07.01D03",
+      "serialNum": "WD-WCATRA533539",
+      "interfaceType": "SATA"
+    }
+  ],
+  "users": [
+    {
+      "user": "gdavid",
+      "tty": "ttys000",
+      "date": "2018-02-06",
+      "time": "13:44",
+      "ip": "",
+      "command": "w -ih"
+    },
+    {
+      "user": "gdavid",
+      "tty": "console",
+      "date": "2018-02-06",
+      "time": "13:21",
+      "ip": "",
+      "command": "-"
+    }
+  ],
+  "localicalDrives": [
+    {
+      "fs": "/dev/disk0s2",
+      "type": "HFS",
+      "size": 999345127424,
+      "used": 40295505920,
+      "use": 4.03,
+      "mount": "/"
+    }
+  ],
+  "software": [
+    {
+      "DisplayVersion": "1.12",
+      "InstallDate": "2016-10-14T22:12:47.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "TextEdit"
+    },
+    {
+      "DisplayVersion": "11.0.1",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "Publisher": "11.0.1, Copyright © 2003-2017 Apple Inc.",
+      "EstimatedSize": 0,
+      "DisplayName": "Safari"
+    },
+    {
+      "DisplayVersion": "1.7.2",
+      "InstallDate": "2018-02-06T12:45:02.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "terminal-notifier"
+    },
+    {
+      "DisplayVersion": "1.7.2",
+      "InstallDate": "2018-02-06T12:45:02.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "terminal-notifier"
+    },
+    {
+      "DisplayVersion": "10.10",
+      "InstallDate": "2016-10-15T01:58:55.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Archive Utility"
+    },
+    {
+      "DisplayVersion": "2.9.3",
+      "InstallDate": "2017-07-31T16:40:58.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "AnyDesk"
+    },
+    {
+      "DisplayVersion": "3.15",
+      "InstallDate": "2018-02-06T12:00:50.000Z",
+      "Publisher": "3.15 (180116 :2), © 2017 Microsoft Corporation. All rights reserved.",
+      "EstimatedSize": 0,
+      "DisplayName": "Microsoft AutoUpdate"
+    },
+    {
+      "DisplayVersion": "15.38",
+      "InstallDate": "2017-09-14T08:18:16.000Z",
+      "Publisher": "15.38 (170902), © 2017 Microsoft Corporation. All rights reserved.",
+      "EstimatedSize": 0,
+      "DisplayName": "Microsoft Outlook"
+    },
+    {
+      "DisplayVersion": "10.12",
+      "InstallDate": "2017-05-26T19:52:49.000Z",
+      "Publisher": "10.12, Copyright © 1997-2016 Apple Inc.",
+      "EstimatedSize": 0,
+      "DisplayName": "System Information"
+    },
+    {
+      "DisplayVersion": "14.0",
+      "InstallDate": "2016-12-07T01:33:07.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "System Preferences"
+    },
+    {
+      "DisplayVersion": "9.0",
+      "InstallDate": "2017-09-02T15:39:00.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Xcode"
+    },
+    {
+      "DisplayVersion": "2.7.3",
+      "InstallDate": "2017-06-09T02:00:10.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Terminal"
+    },
+    {
+      "DisplayVersion": "64.0.3282.140",
+      "InstallDate": "2018-02-01T03:00:37.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Google Chrome"
+    },
+    {
+      "DisplayVersion": "10.0.12-stable",
+      "InstallDate": "2018-02-06T11:27:55.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Advanced REST client"
+    },
+    {
+      "DisplayVersion": "10.0.12-stable",
+      "InstallDate": "2018-02-06T11:27:55.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Advanced REST client"
+    },
+    {
+      "DisplayVersion": "5.5.1",
+      "InstallDate": "2018-02-06T11:27:49.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Postman"
+    },
+    {
+      "DisplayVersion": "5.5.1",
+      "InstallDate": "2018-02-06T11:27:49.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Postman"
+    },
+    {
+      "DisplayVersion": "1.1.1",
+      "InstallDate": "2010-03-13T00:01:37.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Caffeine"
+    },
+    {
+      "DisplayVersion": "1.9",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "Publisher": "Terminal window application for PPP",
+      "EstimatedSize": 0,
+      "DisplayName": "MiniTerm"
+    },
+    {
+      "DisplayVersion": "12604",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "WebKitPluginHost"
+    },
+    {
+      "DisplayVersion": "3.0",
+      "InstallDate": "2017-06-16T01:51:10.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Spotlight"
+    },
+    {
+      "DisplayVersion": "5.0",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "AppleMobileDeviceHelper"
+    },
+    {
+      "DisplayVersion": "5.0",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "AppleMobileSync"
+    },
+    {
+      "DisplayVersion": "4.1",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "Publisher": "2.0, Copyright Apple Inc. 2007-2009",
+      "EstimatedSize": 0,
+      "DisplayName": "ParentalControls"
+    },
+    {
+      "DisplayVersion": "444.50.16",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "DiskImages UI Agent"
+    },
+    {
+      "DisplayVersion": "12603",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "WebKitPluginHost"
+    },
+    {
+      "DisplayVersion": "5.0",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "ScreenSaverEngine"
+    },
+    {
+      "DisplayVersion": "12.4",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "PrinterProxy"
+    },
+    {
+      "DisplayVersion": "81.0",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "Publisher": "Copyright © 2008-2013 Apple Inc.",
+      "EstimatedSize": 0,
+      "DisplayName": "FontRegistryUIAgent"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Spotlight"
+    },
+    {
+      "DisplayVersion": "10.10",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Setup Assistant"
+    },
+    {
+      "DisplayVersion": "6.6.2",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "SpeechSynthesisServer"
+    },
+    {
+      "DisplayVersion": "3.9.4",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "ARDAgent"
+    },
+    {
+      "DisplayVersion": "5.0.5",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "Publisher": "5.0.5, Copyright © 2002-2016 Apple Inc. All rights reserved.",
+      "EstimatedSize": 0,
+      "DisplayName": "OBEXAgent"
+    },
+    {
+      "DisplayVersion": "10.12",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Problem Reporter"
+    },
+    {
+      "DisplayVersion": "10.12",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "ReportPanic"
+    },
+    {
+      "DisplayVersion": "10.8.0",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "Publisher": "1.6",
+      "EstimatedSize": 0,
+      "DisplayName": "Network Setup Assistant"
+    },
+    {
+      "DisplayVersion": "9.0",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "loginwindow"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "ControlStrip"
+    },
+    {
+      "DisplayVersion": "5.0",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Certificate Assistant"
+    },
+    {
+      "DisplayVersion": "12.0",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "WiFiAgent"
+    },
+    {
+      "DisplayVersion": "4.0",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Ticket Viewer"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Keychain Circle Notification"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Installer Progress"
+    },
+    {
+      "DisplayVersion": "5.0.5",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "Publisher": "5.0.5, Copyright © 2002-2016 Apple Inc. All rights reserved.",
+      "EstimatedSize": 0,
+      "DisplayName": "BluetoothUIServer"
+    },
+    {
+      "DisplayVersion": "5.0.5",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "Publisher": "5.0.5, Copyright © 2002-2016 Apple Inc. All rights reserved.",
+      "EstimatedSize": 0,
+      "DisplayName": "Bluetooth Setup Assistant"
+    },
+    {
+      "DisplayVersion": "2.0",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "AirPlayUIAgent"
+    },
+    {
+      "DisplayVersion": "5.3.5",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "HelpViewer"
+    },
+    {
+      "DisplayVersion": "7.0",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Wireless Diagnostics"
+    },
+    {
+      "DisplayVersion": "10.12",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "System Image Utility"
+    },
+    {
+      "DisplayVersion": "1.7.1",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Screen Sharing"
+    },
+    {
+      "DisplayVersion": "9.0",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Keychain Access"
+    },
+    {
+      "DisplayVersion": "2.5",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Grapher"
+    },
+    {
+      "DisplayVersion": "4.0",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "Publisher": "RAID Utility 3.0 (404), Copyright © 2007-2013 Apple Inc.",
+      "EstimatedSize": 0,
+      "DisplayName": "RAID Utility"
+    },
+    {
+      "DisplayVersion": "5.0.5",
+      "InstallDate": "2017-11-13T15:49:04.000Z",
+      "Publisher": "5.0.5, Copyright © 2002-2016 Apple Inc. All rights reserved.",
+      "EstimatedSize": 0,
+      "DisplayName": "Bluetooth File Exchange"
+    },
+    {
+      "DisplayVersion": "9.0",
+      "InstallDate": "2017-05-19T21:28:39.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Instruments"
+    },
+    {
+      "DisplayVersion": "2.10",
+      "InstallDate": "2017-09-02T01:08:25.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "FileMerge"
+    },
+    {
+      "DisplayVersion": "3.7",
+      "InstallDate": "2017-08-09T00:49:13.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Application Loader"
+    },
+    {
+      "DisplayVersion": "5.0",
+      "InstallDate": "2017-09-02T01:41:26.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Accessibility Inspector"
+    },
+    {
+      "DisplayVersion": "12.7.1",
+      "InstallDate": "2017-09-14T12:46:59.000Z",
+      "Publisher": "iTunes 12.7.1.14, © 2000–2017 Apple Inc. All rights reserved.",
+      "EstimatedSize": 0,
+      "DisplayName": "iTunes"
+    },
+    {
+      "DisplayVersion": "1.25",
+      "InstallDate": "2017-11-13T15:36:22.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "MRT"
+    },
+    {
+      "DisplayVersion": "2.2.1",
+      "InstallDate": "2016-06-24T22:36:51.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "App Store"
+    },
+    {
+      "DisplayVersion": "4.0",
+      "InstallDate": "2016-10-15T01:44:14.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Captive Network Assistant"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-09-02T01:44:21.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Xcode Server Builder"
+    },
+    {
+      "DisplayVersion": "10.0",
+      "InstallDate": "2017-08-12T01:24:14.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Simulator"
+    },
+    {
+      "DisplayVersion": "10.3",
+      "InstallDate": "2017-03-11T04:46:48.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Mail"
+    },
+    {
+      "DisplayVersion": "1.73",
+      "InstallDate": "2015-08-19T15:00:00.000Z",
+      "Publisher": "1.73, Copyright(C) Seiko Epson Corporation 2009-2015. All rights reserved.",
+      "EstimatedSize": 0,
+      "DisplayName": "FAX Utility"
+    },
+    {
+      "DisplayVersion": "1.71",
+      "InstallDate": "2015-08-19T15:00:00.000Z",
+      "Publisher": "Copyright(C) Seiko Epson Corporation 2009-2015. All rights reserved.",
+      "EstimatedSize": 0,
+      "DisplayName": "rastertoepfax"
+    },
+    {
+      "DisplayVersion": "1.71",
+      "InstallDate": "2015-08-19T15:00:00.000Z",
+      "Publisher": "Copyright(C) Seiko Epson Corporation 2012-2015. All rights reserved.",
+      "EstimatedSize": 0,
+      "DisplayName": "commandFilter"
+    },
+    {
+      "DisplayVersion": "5.7.24",
+      "InstallDate": "2015-10-06T00:23:28.000Z",
+      "Publisher": "5.7.24, Copyright(C) Seiko Epson Corporation 2002-2015 All rights reserved.",
+      "EstimatedSize": 0,
+      "DisplayName": "EPSON Scanner"
+    },
+    {
+      "DisplayVersion": "4.0.0",
+      "InstallDate": "2014-06-26T03:00:00.000Z",
+      "Publisher": "Canon IJScanner6 version 4.0.0, Copyright CANON INC. 2009-2014",
+      "EstimatedSize": 0,
+      "DisplayName": "Canon IJScanner6"
+    },
+    {
+      "DisplayVersion": "4.0.0",
+      "InstallDate": "2014-06-26T03:00:00.000Z",
+      "Publisher": "Canon IJScanner4 version 4.0.0, Copyright CANON INC. 2009-2014",
+      "EstimatedSize": 0,
+      "DisplayName": "Canon IJScanner4"
+    },
+    {
+      "DisplayVersion": "4.0.0",
+      "InstallDate": "2014-06-26T03:00:00.000Z",
+      "Publisher": "Canon IJScanner2 version 4.0.0, Copyright CANON INC. 2009-2014",
+      "EstimatedSize": 0,
+      "DisplayName": "Canon IJScanner2"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2016-10-29T08:30:40.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Cocoa-AppleScript Applet"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-01-18T10:03:28.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "universalAccessAuthWarn"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-01-18T10:06:09.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "UniversalAccessHUD"
+    },
+    {
+      "DisplayVersion": "8.1",
+      "InstallDate": "2016-10-15T01:58:32.000Z",
+      "Publisher": "4.0, Copyright Apple Computer Inc. 2004",
+      "EstimatedSize": 0,
+      "DisplayName": "syncuid"
+    },
+    {
+      "DisplayVersion": "7.0",
+      "InstallDate": "2017-03-06T05:08:39.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "VoiceOver Quickstart"
+    },
+    {
+      "DisplayVersion": "7.0",
+      "InstallDate": "2017-03-06T04:54:02.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "ScreenReaderUIServer"
+    },
+    {
+      "DisplayVersion": "10.0",
+      "InstallDate": "2017-02-16T08:18:05.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "identityservicesd"
+    },
+    {
+      "DisplayVersion": "4.1",
+      "InstallDate": "2016-10-29T07:08:14.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "FindMyMacMessenger"
+    },
+    {
+      "DisplayVersion": "13.0",
+      "InstallDate": "2016-10-15T01:40:05.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "eaptlstrust"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-02-11T04:08:27.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "FollowUpUI"
+    },
+    {
+      "DisplayVersion": "102",
+      "InstallDate": "2016-12-02T05:59:58.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "CIMFindInputCodeTool"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-06-08T00:41:22.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "storeuid"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-06-08T00:41:10.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "LaterAgent"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2016-11-11T06:24:53.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "AskPermissionUI"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-05-10T23:55:08.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Calibration Assistant"
+    },
+    {
+      "DisplayVersion": "1.07",
+      "InstallDate": "2017-05-26T20:49:37.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "AOSPushRelay"
+    },
+    {
+      "DisplayVersion": "1.07",
+      "InstallDate": "2017-05-26T20:49:43.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "AOSHeartbeat"
+    },
+    {
+      "DisplayVersion": "1.07",
+      "InstallDate": "2017-05-26T20:49:32.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "AOSAlertManager"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-02-16T08:35:05.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "iCloudUserNotificationsd"
+    },
+    {
+      "DisplayVersion": "6.7",
+      "InstallDate": "2016-10-20T01:45:38.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "AutoImporter"
+    },
+    {
+      "DisplayVersion": "4.1",
+      "InstallDate": "2017-01-13T06:23:58.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "VirtualScanner"
+    },
+    {
+      "DisplayVersion": "10.1",
+      "InstallDate": "2017-01-13T06:23:56.000Z",
+      "Publisher": "10.1, © Copyright 2002-2014 Apple Inc. All rights reserved.",
+      "EstimatedSize": 0,
+      "DisplayName": "Type8Camera"
+    },
+    {
+      "DisplayVersion": "10.1",
+      "InstallDate": "2017-01-13T06:23:53.000Z",
+      "Publisher": "10.1, © Copyright 2001-2014 Apple Inc. All rights reserved.",
+      "EstimatedSize": 0,
+      "DisplayName": "Type5Camera"
+    },
+    {
+      "DisplayVersion": "10.1",
+      "InstallDate": "2017-01-13T06:23:51.000Z",
+      "Publisher": "10.1, © Copyright 2001-2014 Apple Inc. All rights reserved.",
+      "EstimatedSize": 0,
+      "DisplayName": "Type4Camera"
+    },
+    {
+      "DisplayVersion": "10.1",
+      "InstallDate": "2017-01-13T06:23:49.000Z",
+      "Publisher": "10.1, © Copyright 2004-2014 Apple Inc., all rights reserved.",
+      "EstimatedSize": 0,
+      "DisplayName": "PTPCamera"
+    },
+    {
+      "DisplayVersion": "10.1",
+      "InstallDate": "2017-01-13T06:23:40.000Z",
+      "Publisher": "10.1, © Copyright 2000-2014 Apple Inc. All rights reserved.",
+      "EstimatedSize": 0,
+      "DisplayName": "MassStorageCamera"
+    },
+    {
+      "DisplayVersion": "12",
+      "InstallDate": "2016-10-15T01:42:08.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "AirScanScanner"
+    },
+    {
+      "DisplayVersion": "5.0",
+      "InstallDate": "2017-02-05T10:52:27.000Z",
+      "Publisher": "5.0, Copyright Apple Inc. 2007-2013",
+      "EstimatedSize": 0,
+      "DisplayName": "quicklookd"
+    },
+    {
+      "DisplayVersion": "1.0.5",
+      "InstallDate": "2016-10-15T23:21:38.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "PubSubAgent"
+    },
+    {
+      "DisplayVersion": "10.0",
+      "InstallDate": "2017-02-08T03:04:29.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "AddressBookSync"
+    },
+    {
+      "DisplayVersion": "10.0",
+      "InstallDate": "2017-02-08T03:04:15.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "ABAssistantService"
+    },
+    {
+      "DisplayVersion": "4.0",
+      "InstallDate": "2016-10-14T22:52:20.000Z",
+      "Publisher": "AFP Client Session Monitor, Copyright © 2000 - 2007, Apple Inc.",
+      "EstimatedSize": 0,
+      "DisplayName": "check_afp"
+    },
+    {
+      "DisplayVersion": "9.0",
+      "InstallDate": "2017-04-07T03:02:08.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "ManagedClient"
+    },
+    {
+      "DisplayVersion": "10.12.5",
+      "InstallDate": "2017-02-07T09:29:59.000Z",
+      "Publisher": "macOS Finder 10.12.5",
+      "EstimatedSize": 0,
+      "DisplayName": "Finder"
+    },
+    {
+      "DisplayVersion": "15.38",
+      "InstallDate": "2017-09-14T08:18:16.000Z",
+      "Publisher": "15.38 (170902), © 2017 Microsoft Corporation. All rights reserved.",
+      "EstimatedSize": 0,
+      "DisplayName": "Microsoft OneNote"
+    },
+    {
+      "DisplayVersion": "15.38",
+      "InstallDate": "2017-09-14T08:18:16.000Z",
+      "Publisher": "15.38 (170902), © 2017 Microsoft Corporation. All rights reserved.",
+      "EstimatedSize": 0,
+      "DisplayName": "Microsoft PowerPoint"
+    },
+    {
+      "DisplayVersion": "15.38",
+      "InstallDate": "2017-09-14T08:18:16.000Z",
+      "Publisher": "15.38 (170902), © 2017 Microsoft Corporation. All rights reserved.",
+      "EstimatedSize": 0,
+      "DisplayName": "Microsoft Excel"
+    },
+    {
+      "DisplayVersion": "15.38",
+      "InstallDate": "2017-09-14T08:18:16.000Z",
+      "Publisher": "15.38 (170902), © 2017 Microsoft Corporation. All rights reserved.",
+      "EstimatedSize": 0,
+      "DisplayName": "Microsoft Word"
+    },
+    {
+      "DisplayVersion": "1.10",
+      "InstallDate": "2017-06-08T01:07:57.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "iBooks"
+    },
+    {
+      "DisplayVersion": "7.0",
+      "InstallDate": "2017-03-06T05:06:32.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "VoiceOver Utility"
+    },
+    {
+      "DisplayVersion": "2.9",
+      "InstallDate": "2016-07-06T00:39:42.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Script Editor"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-02-17T07:45:21.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Network"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-02-17T07:45:14.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "iCloud Drive"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-02-17T07:45:23.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Computer"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-02-17T07:45:17.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "All My Files"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-02-17T07:45:19.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "AirDrop"
+    },
+    {
+      "DisplayVersion": "1.9",
+      "InstallDate": "2016-05-06T22:10:28.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Grab"
+    },
+    {
+      "DisplayVersion": "16.3",
+      "InstallDate": "2017-04-21T03:16:15.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Disk Utility"
+    },
+    {
+      "DisplayVersion": "5.11",
+      "InstallDate": "2016-10-14T22:09:12.000Z",
+      "Publisher": "5.11, © Copyright 2001-2016 Apple Inc. All Rights Reserved.",
+      "EstimatedSize": 0,
+      "DisplayName": "Digital Color Meter"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-02-02T05:55:24.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Console"
+    },
+    {
+      "DisplayVersion": "4.12.0",
+      "InstallDate": "2016-10-20T01:47:33.000Z",
+      "Publisher": "4.12.0, © Copyright 2016 Apple Inc.",
+      "EstimatedSize": 0,
+      "DisplayName": "ColorSync Utility"
+    },
+    {
+      "DisplayVersion": "3.1",
+      "InstallDate": "2017-01-06T06:13:42.000Z",
+      "Publisher": "3.1, Copyright 2002-2017 Apple, Inc.",
+      "EstimatedSize": 0,
+      "DisplayName": "Audio MIDI Setup"
+    },
+    {
+      "DisplayVersion": "6.3.7",
+      "InstallDate": "2016-06-21T18:02:41.000Z",
+      "Publisher": "6.3.7, Copyright 2001 -2017 Apple Inc.",
+      "EstimatedSize": 0,
+      "DisplayName": "AirPort Utility"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-04-21T04:44:51.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Storage Management"
+    },
+    {
+      "DisplayVersion": "10.12",
+      "InstallDate": "2017-04-05T03:47:02.000Z",
+      "Publisher": "10.12, Copyright © 2000-2015 Apple Inc.",
+      "EstimatedSize": 0,
+      "DisplayName": "Activity Monitor"
+    },
+    {
+      "DisplayVersion": "1.9.1",
+      "InstallDate": "2016-10-15T00:24:29.000Z",
+      "Publisher": "1.9.1, Copyright © 2000-2016 Apple Inc. All rights reserved.",
+      "EstimatedSize": 0,
+      "DisplayName": "Network Utility"
+    },
+    {
+      "DisplayVersion": "1.2",
+      "InstallDate": "2016-10-15T02:03:39.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Folder Actions Setup"
+    },
+    {
+      "DisplayVersion": "4.5",
+      "InstallDate": "2017-02-16T09:34:53.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Feedback Assistant"
+    },
+    {
+      "DisplayVersion": "4.0",
+      "InstallDate": "2016-06-23T00:50:33.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Reminders"
+    },
+    {
+      "DisplayVersion": "10.4",
+      "InstallDate": "2017-06-16T01:15:49.000Z",
+      "Publisher": "10.4, Copyright © 2009-2014 Apple Inc. All Rights Reserved.",
+      "EstimatedSize": 0,
+      "DisplayName": "QuickTime Player"
+    },
+    {
+      "DisplayVersion": "5.0",
+      "InstallDate": "2016-07-05T23:59:32.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Directory Utility"
+    },
+    {
+      "DisplayVersion": "9.0",
+      "InstallDate": "2017-03-31T03:40:58.000Z",
+      "Publisher": "9.0, Copyright 2002-2016 Apple Inc.",
+      "EstimatedSize": 0,
+      "DisplayName": "Preview"
+    },
+    {
+      "DisplayVersion": "2.0",
+      "InstallDate": "2017-06-21T00:11:42.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Photos"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-04-21T04:44:47.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "About This Mac"
+    },
+    {
+      "DisplayVersion": "10.12",
+      "InstallDate": "2016-10-29T15:23:34.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Migration Assistant"
+    },
+    {
+      "DisplayVersion": "6.1.0",
+      "InstallDate": "2017-04-09T23:03:58.000Z",
+      "Publisher": "Boot Camp Assistant 6.1.0, Copyright © 2016 Apple Inc. All rights reserved",
+      "EstimatedSize": 0,
+      "DisplayName": "Boot Camp Assistant"
+    },
+    {
+      "DisplayVersion": "8.0",
+      "InstallDate": "2017-02-17T09:31:23.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Photo Booth"
+    },
+    {
+      "DisplayVersion": "1.3",
+      "InstallDate": "2016-11-16T04:38:47.000Z",
+      "Publisher": "1.3, Copyright 2007-2014 Apple Inc.",
+      "EstimatedSize": 0,
+      "DisplayName": "Time Machine"
+    },
+    {
+      "DisplayVersion": "10.0",
+      "InstallDate": "2017-03-01T18:58:43.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Stickies"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2016-11-16T04:38:30.000Z",
+      "Publisher": "1.0, Copyright 2016 Apple Inc.",
+      "EstimatedSize": 0,
+      "DisplayName": "Siri"
+    },
+    {
+      "DisplayVersion": "4.4",
+      "InstallDate": "2017-05-31T22:12:08.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Notes"
+    },
+    {
+      "DisplayVersion": "10.0",
+      "InstallDate": "2012-05-07T21:21:03.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Messages"
+    },
+    {
+      "DisplayVersion": "2.0",
+      "InstallDate": "2017-02-17T05:09:17.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Maps"
+    },
+    {
+      "DisplayVersion": "7.0",
+      "InstallDate": "2016-05-05T02:40:01.000Z",
+      "Publisher": "7.0, Copyright © 2003–2016 Apple Inc.",
+      "EstimatedSize": 0,
+      "DisplayName": "Font Book"
+    },
+    {
+      "DisplayVersion": "3.0",
+      "InstallDate": "2017-02-05T12:05:35.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "FaceTime"
+    },
+    {
+      "DisplayVersion": "5.8",
+      "InstallDate": "2016-10-29T07:15:34.000Z",
+      "Publisher": "5.8, Copyright © 2001-2015 by Apple Inc.  All Rights Reserved.",
+      "EstimatedSize": 0,
+      "DisplayName": "DVD Player"
+    },
+    {
+      "DisplayVersion": "10.0",
+      "InstallDate": "2016-06-28T23:07:07.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Contacts"
+    },
+    {
+      "DisplayVersion": "9.0",
+      "InstallDate": "2017-02-10T06:38:49.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Calendar"
+    },
+    {
+      "DisplayVersion": "1.2",
+      "InstallDate": "2016-11-16T04:38:45.000Z",
+      "Publisher": "1.2, Copyright 2007-2014 Apple Inc.",
+      "EstimatedSize": 0,
+      "DisplayName": "Mission Control"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2016-11-16T04:38:38.000Z",
+      "Publisher": "1.0, Copyright 2010-2014 Apple Inc.",
+      "EstimatedSize": 0,
+      "DisplayName": "Launchpad"
+    },
+    {
+      "DisplayVersion": "6.8",
+      "InstallDate": "2016-10-20T01:46:39.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Image Capture"
+    },
+    {
+      "DisplayVersion": "2.2.1",
+      "InstallDate": "2016-10-15T02:21:16.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Dictionary"
+    },
+    {
+      "DisplayVersion": "1.8",
+      "InstallDate": "2016-11-16T04:38:41.000Z",
+      "Publisher": "1.8, Copyright 2006-2014 Apple Inc.",
+      "EstimatedSize": 0,
+      "DisplayName": "Dashboard"
+    },
+    {
+      "DisplayVersion": "2.7",
+      "InstallDate": "2016-05-05T01:47:32.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Automator"
+    },
+    {
+      "DisplayVersion": "3.14",
+      "InstallDate": "2016-10-29T13:03:19.000Z",
+      "Publisher": "3.14, Copyright 2003-2016 Apple Inc.",
+      "EstimatedSize": 0,
+      "DisplayName": "Chess"
+    },
+    {
+      "DisplayVersion": "10.8",
+      "InstallDate": "2016-10-29T07:34:42.000Z",
+      "Publisher": "10.8, Copyright © 2001-2013, Apple Inc.",
+      "EstimatedSize": 0,
+      "DisplayName": "Calculator"
+    },
+    {
+      "DisplayVersion": "1.71",
+      "InstallDate": "2015-08-19T15:00:00.000Z",
+      "Publisher": "1.71, Copyright(C) Seiko Epson Corporation 2009-2015. All rights reserved.",
+      "EstimatedSize": 0,
+      "DisplayName": "Fax Receive Monitor"
+    },
+    {
+      "DisplayVersion": "1.71",
+      "InstallDate": "2015-08-19T15:00:00.000Z",
+      "Publisher": "Copyright(C) Seiko Epson Corporation 2009-2015. All rights reserved.",
+      "EstimatedSize": 0,
+      "DisplayName": "epsonfax"
+    },
+    {
+      "DisplayVersion": "1.71",
+      "InstallDate": "2015-08-19T15:00:00.000Z",
+      "Publisher": "Copyright(C) Seiko Epson Corporation 2009-2015. All rights reserved.",
+      "EstimatedSize": 0,
+      "DisplayName": "EPFaxAutoSetupTool"
+    },
+    {
+      "InstallDate": "2012-01-18T01:52:32.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Show Info"
+    },
+    {
+      "InstallDate": "2012-01-18T01:52:32.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Set Info"
+    },
+    {
+      "InstallDate": "2012-01-18T01:52:32.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Rename"
+    },
+    {
+      "InstallDate": "2012-01-18T01:52:30.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Remove"
+    },
+    {
+      "InstallDate": "2012-01-18T01:52:30.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Proof"
+    },
+    {
+      "InstallDate": "2012-01-18T01:52:30.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Match"
+    },
+    {
+      "InstallDate": "2012-01-18T01:52:30.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Extract"
+    },
+    {
+      "InstallDate": "2012-01-18T01:52:30.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Embed"
+    },
+    {
+      "DisplayVersion": "12.4",
+      "InstallDate": "2017-02-07T04:13:38.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "AirScanLegacyDiscovery"
+    },
+    {
+      "DisplayVersion": "2.0",
+      "InstallDate": "2016-10-14T22:13:34.000Z",
+      "Publisher": "Summary Service Version  2",
+      "EstimatedSize": 0,
+      "DisplayName": "Summary Service"
+    },
+    {
+      "DisplayVersion": "6.6.2",
+      "InstallDate": "2017-03-26T19:45:33.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "SpeechService"
+    },
+    {
+      "DisplayVersion": "6.7",
+      "InstallDate": "2016-10-20T01:46:14.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "ImageCaptureService"
+    },
+    {
+      "DisplayVersion": "2.1",
+      "InstallDate": "2016-10-15T00:16:21.000Z",
+      "Publisher": "Chinese Text Converter 1.1",
+      "EstimatedSize": 0,
+      "DisplayName": "ChineseTextConverterService"
+    },
+    {
+      "DisplayVersion": "54.1",
+      "InstallDate": "2017-02-11T04:07:38.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "UASharedPasteboardProgressUI"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-01-18T10:02:06.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "DFRHUD"
+    },
+    {
+      "DisplayVersion": "8.1",
+      "InstallDate": "2016-10-15T01:58:38.000Z",
+      "Publisher": "1.0, Copyright Apple Computer Inc. 2004",
+      "EstimatedSize": 0,
+      "DisplayName": "Conflict Resolver"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2016-10-25T03:04:18.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "STMUIHelper"
+    },
+    {
+      "DisplayVersion": "6.6.1",
+      "InstallDate": "2017-03-17T23:33:02.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "SpeechRecognitionServer"
+    },
+    {
+      "DisplayVersion": "6.6.1",
+      "InstallDate": "2017-03-17T23:33:21.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Speech Downloader"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2016-10-15T02:36:41.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "nbagent"
+    },
+    {
+      "DisplayVersion": "7.0",
+      "InstallDate": "2017-03-28T22:30:28.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "soagent"
+    },
+    {
+      "DisplayVersion": "10.0",
+      "InstallDate": "2017-02-10T06:49:32.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "IMTransferAgent"
+    },
+    {
+      "DisplayVersion": "10.0",
+      "InstallDate": "2017-02-10T06:40:17.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "IMAutomaticHistoryDeletionAgent"
+    },
+    {
+      "DisplayVersion": "10.0",
+      "InstallDate": "2017-02-10T06:43:11.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "imagent"
+    },
+    {
+      "DisplayVersion": "10.0",
+      "InstallDate": "2016-10-15T02:18:37.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "imavagent"
+    },
+    {
+      "DisplayVersion": "10.0",
+      "InstallDate": "2017-02-16T08:17:31.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "IDSRemoteURLConnectionAgent"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2016-11-11T06:24:32.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Family"
+    },
+    {
+      "DisplayVersion": "10.0",
+      "InstallDate": "2016-10-14T22:52:53.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "CMFSyncAgent"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-04-21T03:59:56.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "iCloud Drive"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-02-05T11:43:46.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "VietnameseIM"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-01-29T06:54:24.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "TrackpadIM"
+    },
+    {
+      "DisplayVersion": "1.6",
+      "InstallDate": "2017-02-05T11:26:14.000Z",
+      "Publisher": "Tamil Input Method 1.5",
+      "EstimatedSize": 0,
+      "DisplayName": "TamilIM"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2016-12-02T05:58:42.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "TCIM"
+    },
+    {
+      "DisplayVersion": "2.0",
+      "InstallDate": "2016-10-29T11:16:34.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Switch Control"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2016-12-02T05:55:02.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "SCIM"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-02-05T11:37:41.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "PressAndHold"
+    },
+    {
+      "DisplayVersion": "18",
+      "InstallDate": "2016-10-15T01:41:44.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "PluginIM"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2016-06-29T22:24:09.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "KoreanIM"
+    },
+    {
+      "DisplayVersion": "3.2",
+      "InstallDate": "2017-05-11T01:04:22.000Z",
+      "Publisher": "2.0, Copyright © 2004-2009 Apple Inc., All Rights Reserved",
+      "EstimatedSize": 0,
+      "DisplayName": "KeyboardViewer"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-02-03T00:55:01.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "JapaneseIM"
+    },
+    {
+      "DisplayVersion": "10.9",
+      "InstallDate": "2016-10-29T07:03:48.000Z",
+      "Publisher": "10.9, Copyright 2012 Apple Inc.",
+      "EstimatedSize": 0,
+      "DisplayName": "InkServer"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2016-10-22T03:21:21.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "HindiIM"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-02-03T01:03:28.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "EmojiFunctionRowIM"
+    },
+    {
+      "DisplayVersion": "3.5.1",
+      "InstallDate": "2017-01-13T08:07:18.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Dictation"
+    },
+    {
+      "DisplayVersion": "2.0.1",
+      "InstallDate": "2017-02-03T01:07:04.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "CharacterPalette"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-02-03T00:55:16.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "AinuIM"
+    },
+    {
+      "DisplayVersion": "1.1.0",
+      "InstallDate": "2016-10-15T01:06:50.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "50onPaletteServer"
+    },
+    {
+      "DisplayVersion": "10.1",
+      "InstallDate": "2017-01-13T06:24:16.000Z",
+      "Publisher": "10.1, © Copyright 2003-2015 Apple Inc. All rights reserved.",
+      "EstimatedSize": 0,
+      "DisplayName": "MakePDF"
+    },
+    {
+      "DisplayVersion": "10.1",
+      "InstallDate": "2017-01-13T06:24:20.000Z",
+      "Publisher": "10.1, © Copyright 2003-2014 Apple  Inc. All rights reserved.",
+      "EstimatedSize": 0,
+      "DisplayName": "Build Web Page"
+    },
+    {
+      "DisplayVersion": "8.5.9",
+      "InstallDate": "2017-02-07T07:30:24.000Z",
+      "Publisher": "Wish Shell 8.5.9,\nCopyright © 1989-2017 Tcl Core Team,\nCopyright © 2002-2017 Daniel A. Steffen,\nCopyright © 2001-2009 Apple Inc.,\nCopyright © 2001-2002 Jim Ingham & Ian Reid",
+      "EstimatedSize": 0,
+      "DisplayName": "Wish"
+    },
+    {
+      "DisplayVersion": "8.4.19",
+      "InstallDate": "2017-02-07T07:27:09.000Z",
+      "Publisher": "Wish Shell 8.4.19,\nCopyright © 2017 Tcl Core Team,\nCopyright © 2002-2017 Daniel A. Steffen,\nInitial MacOS X Port by Jim Ingham & Ian Reid,\nCopyright © 2001-2002, Apple Computer, Inc.",
+      "EstimatedSize": 0,
+      "DisplayName": "Wish"
+    },
+    {
+      "DisplayVersion": "8.1",
+      "InstallDate": "2016-10-15T01:58:26.000Z",
+      "Publisher": "© 2002-2003 Apple",
+      "EstimatedSize": 0,
+      "DisplayName": "SyncServer"
+    },
+    {
+      "DisplayVersion": "5.0",
+      "InstallDate": "2017-02-05T10:24:55.000Z",
+      "Publisher": "5.0, Copyright Apple Inc. 2007-2013",
+      "EstimatedSize": 0,
+      "DisplayName": "quicklookd32"
+    },
+    {
+      "DisplayVersion": "5.0",
+      "InstallDate": "2017-02-05T10:52:41.000Z",
+      "Publisher": "5.0, Copyright Apple Inc. 2007-2013",
+      "EstimatedSize": 0,
+      "DisplayName": "QuickLookUIHelper"
+    },
+    {
+      "DisplayVersion": "2.7.10",
+      "InstallDate": "2017-02-07T08:11:24.000Z",
+      "Publisher": "2.7.10, (c) 2001-2015 Python Software Foundation.",
+      "EstimatedSize": 0,
+      "DisplayName": "Python"
+    },
+    {
+      "DisplayVersion": "2.6.9",
+      "InstallDate": "2017-02-07T08:11:16.000Z",
+      "Publisher": "2.6.9, (c) 2004-2010 Python Software Foundation.",
+      "EstimatedSize": 0,
+      "DisplayName": "Python"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-01-31T09:13:32.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Widget Simulator"
+    },
+    {
+      "DisplayVersion": "10.0",
+      "InstallDate": "2017-02-10T06:41:50.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "IMServicePlugInAgent"
+    },
+    {
+      "DisplayVersion": "10.0",
+      "InstallDate": "2017-02-08T03:04:10.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "AddressBookSourceSync"
+    },
+    {
+      "DisplayVersion": "10.0",
+      "InstallDate": "2017-02-08T03:04:11.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "AddressBookManager"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2016-12-22T23:51:02.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "screencapturetb"
+    },
+    {
+      "DisplayVersion": "341.2",
+      "InstallDate": "2017-04-05T02:02:00.000Z",
+      "Publisher": "341.2",
+      "EstimatedSize": 0,
+      "DisplayName": "rcd"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-02-14T06:48:55.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "iCloud"
+    },
+    {
+      "DisplayVersion": "2.0",
+      "InstallDate": "2017-06-21T00:12:09.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Photos Agent"
+    },
+    {
+      "DisplayVersion": "2.0",
+      "InstallDate": "2017-01-18T10:06:31.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "ZoomWindow"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-02-16T08:35:31.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Weather"
+    },
+    {
+      "DisplayVersion": "7.0",
+      "InstallDate": "2017-03-06T04:57:37.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "VoiceOver"
+    },
+    {
+      "DisplayVersion": "3.3.0",
+      "InstallDate": "2016-10-14T23:09:48.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "UserNotificationCenter"
+    },
+    {
+      "DisplayVersion": "5.0",
+      "InstallDate": "2016-10-15T01:51:32.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "UnmountAssistantAgent"
+    },
+    {
+      "DisplayVersion": "7.0",
+      "InstallDate": "2017-01-18T10:04:48.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "UniversalAccessControl"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2016-10-29T08:42:55.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "ThermalTrap"
+    },
+    {
+      "DisplayVersion": "1.7",
+      "InstallDate": "2017-02-02T06:52:57.000Z",
+      "Publisher": "SystemUIServer version 1.7, Copyright 2000-2010 Apple Computer, Inc.",
+      "EstimatedSize": 0,
+      "DisplayName": "SystemUIServer"
+    },
+    {
+      "DisplayVersion": "1.3.6",
+      "InstallDate": "2016-10-15T02:07:40.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "System Events"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-02-16T08:22:58.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Stocks"
+    },
+    {
+      "DisplayVersion": "6",
+      "InstallDate": "2017-04-07T02:38:57.000Z",
+      "Publisher": "Software Update version 4.0, Copyright © 2000-2009, Apple Inc. All rights reserved.",
+      "EstimatedSize": 0,
+      "DisplayName": "Software Update"
+    },
+    {
+      "DisplayVersion": "58",
+      "InstallDate": "2016-11-04T03:31:54.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "SocialPushAgent"
+    },
+    {
+      "DisplayVersion": "111.3.13",
+      "InstallDate": "2017-02-07T09:31:33.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Siri"
+    },
+    {
+      "DisplayVersion": "10.8",
+      "InstallDate": "2016-10-15T00:26:29.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "SecurityFixer"
+    },
+    {
+      "DisplayVersion": "1.0.1",
+      "InstallDate": "2016-10-29T07:09:07.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "ScriptMonitor"
+    },
+    {
+      "DisplayVersion": "18",
+      "InstallDate": "2016-10-15T01:41:49.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "RegisterPluginIMApp"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-01-13T06:08:13.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "RapportUIAgent"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-04-21T02:17:28.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "PowerChime"
+    },
+    {
+      "DisplayVersion": "2.0",
+      "InstallDate": "2016-10-29T10:52:51.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Photo Library Migration Utility"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-02-21T07:18:56.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Pass Viewer"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2016-10-29T00:19:31.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "PIPAgent"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2016-10-15T02:57:16.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "OSDUIHelper"
+    },
+    {
+      "DisplayVersion": "1.8",
+      "InstallDate": "2016-10-20T07:13:46.000Z",
+      "Publisher": "1.8 (180.8), Copyright © 2007-2009 Apple Inc. All Rights Reserved.",
+      "EstimatedSize": 0,
+      "DisplayName": "ODSAgent"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-02-21T04:58:45.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "NowPlayingTouchUI"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-01-31T09:20:50.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Notification Center"
+    },
+    {
+      "DisplayVersion": "1.5",
+      "InstallDate": "2016-10-15T00:19:09.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Network Diagnostics"
+    },
+    {
+      "DisplayVersion": "6.2",
+      "InstallDate": "2017-01-07T06:55:35.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "NetAuthAgent"
+    },
+    {
+      "DisplayVersion": "1.5.1",
+      "InstallDate": "2016-10-15T00:26:28.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Memory Slot Utility"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-02-08T22:31:23.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "LocationMenu"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-03-24T02:30:34.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Language Chooser"
+    },
+    {
+      "DisplayVersion": "10.7",
+      "InstallDate": "2016-10-29T06:54:12.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "KeyboardSetupAssistant"
+    },
+    {
+      "DisplayVersion": "15.0.1",
+      "InstallDate": "2016-10-15T00:37:25.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Java Web Start"
+    },
+    {
+      "DisplayVersion": "15.0.1",
+      "InstallDate": "2016-10-15T00:37:46.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Jar Launcher"
+    },
+    {
+      "DisplayVersion": "6.2.0",
+      "InstallDate": "2017-04-21T02:42:11.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Installer"
+    },
+    {
+      "DisplayVersion": "3.0",
+      "InstallDate": "2017-01-13T09:59:56.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Install in Progress"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-03-02T02:34:54.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Install Command Line Developer Tools"
+    },
+    {
+      "DisplayVersion": "1.1.6",
+      "InstallDate": "2016-10-15T02:08:32.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Image Events"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-04-05T06:20:31.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Games"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2016-10-15T02:03:24.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "FolderActionsDispatcher"
+    },
+    {
+      "DisplayVersion": "6",
+      "InstallDate": "2016-10-14T22:47:51.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "FirmwareUpdateHelper"
+    },
+    {
+      "DisplayVersion": "1.5.1",
+      "InstallDate": "2016-10-15T00:27:56.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Expansion Slot Utility"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-04-05T01:52:59.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "EscrowSecurityAlert"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2016-10-29T11:23:33.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Dwell Control"
+    },
+    {
+      "DisplayVersion": "1.8",
+      "InstallDate": "2017-03-26T20:56:47.000Z",
+      "Publisher": "Dock 1.8",
+      "EstimatedSize": 0,
+      "DisplayName": "Dock"
+    },
+    {
+      "DisplayVersion": "444.50.16",
+      "InstallDate": "2017-04-05T03:11:35.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "DiskImageMounter"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2016-10-15T01:01:49.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "DiscHelper"
+    },
+    {
+      "DisplayVersion": "1.0.6",
+      "InstallDate": "2016-10-15T02:08:54.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Database Events"
+    },
+    {
+      "DisplayVersion": "168.3",
+      "InstallDate": "2017-01-26T03:34:13.000Z",
+      "Publisher": "Copyright © 2009 Apple Inc.",
+      "EstimatedSize": 0,
+      "DisplayName": "CoreServicesUIAgent"
+    },
+    {
+      "DisplayVersion": "1486.12",
+      "InstallDate": "2017-04-21T02:21:20.000Z",
+      "Publisher": "Copyright © 2013 Apple Inc.",
+      "EstimatedSize": 0,
+      "DisplayName": "CoreLocationAgent"
+    },
+    {
+      "DisplayVersion": "8.0",
+      "InstallDate": "2016-10-15T02:25:58.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "CalendarFileHandler"
+    },
+    {
+      "DisplayVersion": "2.7",
+      "InstallDate": "2016-12-22T05:22:14.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "Automator Runner"
+    },
+    {
+      "DisplayVersion": "1.1.2",
+      "InstallDate": "2016-10-15T00:26:26.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "AppleScript Utility"
+    },
+    {
+      "DisplayVersion": "2.3.0",
+      "InstallDate": "2016-10-14T23:02:40.000Z",
+      "Publisher": "Version 2.3.0, Copyright Apple Inc., 2008-2014",
+      "EstimatedSize": 0,
+      "DisplayName": "AppleGraphicsWarning"
+    },
+    {
+      "DisplayVersion": "2.0",
+      "InstallDate": "2016-11-02T23:51:20.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "AppleFileServer"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-06-08T00:41:35.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "AppDownloadLauncher"
+    },
+    {
+      "DisplayVersion": "2.2.1",
+      "InstallDate": "2016-10-14T23:09:57.000Z",
+      "Publisher": "2.2.1 (221.4), Copyright © 2006-2013 Apple Inc. All Rights Reserved.",
+      "EstimatedSize": 0,
+      "DisplayName": "AirPort Base Station Agent"
+    },
+    {
+      "DisplayVersion": "10.0",
+      "InstallDate": "2017-02-08T03:04:14.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "AddressBookUrlForwarder"
+    },
+    {
+      "DisplayVersion": "12.4",
+      "InstallDate": "2017-02-07T04:13:28.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "AddPrinter"
+    },
+    {
+      "DisplayVersion": "1.0",
+      "InstallDate": "2017-04-05T03:52:20.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "AVB Audio Configuration"
+    },
+    {
+      "DisplayVersion": "4.10.0",
+      "InstallDate": "2016-10-15T01:39:57.000Z",
+      "Publisher": "4.10.0, Copyright 2014 Apple Computer, Inc.",
+      "EstimatedSize": 0,
+      "DisplayName": "Display Calibrator"
+    },
+    {
+      "DisplayVersion": "3.9.3",
+      "InstallDate": "2017-09-14T12:46:59.000Z",
+      "EstimatedSize": 0,
+      "DisplayName": "ARDAgent"
+    }
+  ]
+}
